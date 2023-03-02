@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Pseudo</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, #abd2fa, #BFFFBC, #3B7080 );
+            
+        }
+        h1 {
+            text-align: center;
+            color: #13485C;
+            
+        }
+        h2 {
+            color: #2385A9;
+            text-align: left;
+        }
+        main {
+            background-color: white;
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 10px 10px 10px #13485C;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+            border-radius: 20px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .especial:hover {
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+        
+        .especial::before {
+            content:'>>';
+            font-weight: lighter;
+        }
+       .especial::after {
+        content: '<<';
+        font-weight: lighter;
+       }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Pesonalizando um link</h1>
+    <h2>Acesso os Links abaixo!</h2>
+    <p>
+        Para aprender HTML5 e CSS3, acesse o <a href="https://github.com/">GitHub do Renan</a>
+    </p>
+    <p>
+        Se quiser conhcer nais sobre os padrões, visite o site do <a href="https://www.w3schools.com/" class="especial"> W3Schools</a> <!-- Usado o seletor class para formatação em CSS -->
+    </p>
+</main>
+</body>
+</html>
