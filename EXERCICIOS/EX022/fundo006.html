@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover; /*recomendado para completar a imagem para toda a tela*/
+            background-size: cover;
+            background-attachment: fixed; 
+
+            shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin:auto;
             border: 1px solid darkblue;
@@ -28,6 +37,10 @@
 <body>
     <main>
         <h1>Teste de imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolorum recusandae et provident, iusto dignissimos, corporis incidunt quia rem odio illo ipsam ea. Nihil ex asperiores, nam ipsa nisi repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae, eos aperiam quidem consectetur temporibus nobis ullam in dicta autem enim consequuntur ipsam earum quo. Asperiores dolore iste beatae quidem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsum quibusdam, voluptatibus commodi officia accusamus soluta a eveniet itaque libero neque vel pariatur dignissimos, asperiores eligendi eos dolorum. Beatae, aut?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolorum recusandae et provident, iusto dignissimos, corporis incidunt quia rem odio illo ipsam ea. Nihil ex asperiores, nam ipsa nisi repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae, eos aperiam quidem consectetur temporibus nobis ullam in dicta autem enim consequuntur ipsam earum quo. Asperiores dolore iste beatae quidem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsum quibusdam, voluptatibus commodi officia accusamus soluta a eveniet itaque libero neque vel pariatur dignissimos, asperiores eligendi eos dolorum. Beatae, aut?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolorum recusandae et provident, iusto dignissimos, corporis incidunt quia rem odio illo ipsam ea. Nihil ex asperiores, nam ipsa nisi repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae, eos aperiam quidem consectetur temporibus nobis ullam in dicta autem enim consequuntur ipsam earum quo. Asperiores dolore iste beatae quidem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsum quibusdam, voluptatibus commodi officia accusamus soluta a eveniet itaque libero neque vel pariatur dignissimos, asperiores eligendi eos dolorum. Beatae, aut?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolorum recusandae et provident, iusto dignissimos, corporis incidunt quia rem odio illo ipsam ea. Nihil ex asperiores, nam ipsa nisi repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae, eos aperiam quidem consectetur temporibus nobis ullam in dicta autem enim consequuntur ipsam earum quo. Asperiores dolore iste beatae quidem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsum quibusdam, voluptatibus commodi officia accusamus soluta a eveniet itaque libero neque vel pariatur dignissimos, asperiores eligendi eos dolorum. Beatae, aut?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolorum recusandae et provident, iusto dignissimos, corporis incidunt quia rem odio illo ipsam ea. Nihil ex asperiores, nam ipsa nisi repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae, eos aperiam quidem consectetur temporibus nobis ullam in dicta autem enim consequuntur ipsam earum quo. Asperiores dolore iste beatae quidem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsum quibusdam, voluptatibus commodi officia accusamus soluta a eveniet itaque libero neque vel pariatur dignissimos, asperiores eligendi eos dolorum. Beatae, aut?</p>
     </main>
 </body>
